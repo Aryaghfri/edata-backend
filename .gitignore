@@ -1,0 +1,36 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel specific
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+.phpunit.cache
+.phpactor.json
+auth.json
+
+# Storage and build
+/storage/*
+!storage/app/public
+/public/storage
+/public/hot
+/public/build
+
+# Laravel 4 & 5 compatibility
+bootstrap/compiled.php
+app/storage/
+public_html/storage
+public_html/hot
+
+# Development environment
+Homestead.yaml
+Homestead.json
+/.vagrant
+
+# IDE/editor related
+/.fleet
+/.idea
+/.vscode
